@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me | Sue Donaldson Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:400,700|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  </head>
+
+  <body>
+    <header>
+      <div id="logo" class="header__item">
+        <a href="index.html"><img src="images/logo_sue-donaldson.png" alt="Sue Donaldson"></a>
+      </div>
+      <nav class="header__item">
+        <ul role="menubar">
+          <li role="presentation"><a href="index.html" role="menuitem">Home</a></li>
+          <li role="presentation"><a href="about.html" role="menuitem">About Me</a></li>
+          <li role="presentation"><a href="work.html" role="menuitem">My Work</a></li>
+          <li role="presentation"><a href="contact.html" role="menuitem" class="current">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="main-content">
+      <h1>Contact Me</h1>
+      <div class="contact">
+        <div class="contact__item">
+          PO Box 5618<br>
+          Annapolis, MD 21403<br><br>
+
+          email: <a href="mailto:3333sd@gmail.com" target="_blank">3333sd@gmail.com</a><br>
+          mobile: <a href="tel:808-321-8802" aria-label="phone number: 8 0 8. 3 2 1. 8 8 0 2.">808-321-8802</a><br>
+          skype: <a href="skype:suekatedonaldson">suekatedonaldson</a><br><br>
+
+          <div style="text-align:center;">
+            <button type="button" onclick="window.open('mailto:3333sd@gmail.com');">Email Me</button>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <p class="small">* = Required</p>
+          <form action="" method="post" id="contact-form">
+
+            <label for="name" class="standard-label">*Name: </label>
+            <input type="text" id="name" name="name" placeholder="First & Last Name" required><br><br>
+
+            <label for="email" class="standard-label">*Email: </label>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            <label for="phone" class="standard-label">Phone: </label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone (optional)"><br><br>
+
+            <label for="message" class="standard-label">*Message: </label><br>
+            <textarea id="message" name="message" placeholder="Message" maxlength="240" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Visit me on...</p>
+      <div class="footer__icons">
+        <a href="https://github.com/" target="_blank"><img src="images/icon-github.svg" alt="Github"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/icon-linkedin.svg" alt="LinkedIn"></a>
+      </div>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
