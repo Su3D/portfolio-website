@@ -48,7 +48,7 @@ header {
   width: 100%;
   padding: 20px;
   background-color: var(--light-gray);
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 .header__item {
@@ -61,7 +61,7 @@ header {
 }
 
 #logo {
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 #logo img {
@@ -74,7 +74,7 @@ nav {
   float: right;
   font-size: 1.05em;
   font-weight: 700;
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 nav a {
@@ -130,7 +130,7 @@ nav ul:after {
   clear: both;
   margin: 10px;
   padding: 25px 15px;
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 footer {
@@ -141,7 +141,7 @@ footer {
   padding: 20px;
   background-color: var(--light-gray);
   text-align: center;
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 .footer__icons a:nth-of-type(1),
@@ -152,7 +152,7 @@ footer {
 .profile {
   max-width: 700px;
   margin: 0 auto;
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 .profile__portrait {
@@ -165,7 +165,7 @@ footer {
 .contact {
   display: flex;
   width: 100%;
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 @media screen and (max-width: 750px) {
@@ -176,7 +176,7 @@ footer {
 
 .contact__item {
   flex: 0 1 50%;
-  border:1px solid var(--debug-border); /*DEBUG*/
+  /*border:1px solid var(--debug-border); DEBUG*/
 }
 
 .grid-work {
