@@ -177,7 +177,7 @@ nav ul:after {
 
 #main-content {
   clear: both;
-  margin: 10px;
+  margin: 10px 10px 50px;
   padding: 25px 15px;
   /*border:1px solid #7b5acc; DEBUG*/
 }
