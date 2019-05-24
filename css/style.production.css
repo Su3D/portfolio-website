@@ -318,8 +318,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   opacity: 0.7;
 }
 
-p + table, svg + p {margin-top:50px;}
-
 table {margin: 50px auto;}
 
 table, th, td {
