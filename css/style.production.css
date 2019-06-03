@@ -337,14 +337,14 @@ caption, th {
 
 
 @-webkit-keyframes orange-purple {
-  0% {fill: #cc4400;}
-  100% {fill: #720eb1;}
+  0% { fill: #cc4400; }
+  100% { fill: #720eb1; }
 }
 
 
 @keyframes orange-purple {
-  0% {fill: #cc4400;}
-  100% {fill: #720eb1;}
+  0% { fill: #cc4400; }
+  100% { fill: #720eb1; }
 }
 
 .petal-orange {
@@ -353,13 +353,13 @@ caption, th {
 }
 
 @-webkit-keyframes purple-orange {
-  0% {fill: #720eb1;}
-  100% {fill: #cc4400;}
+  0% { fill: #720eb1; }
+  100% { fill: #cc4400; }
 }
 
 @keyframes purple-orange {
-  0% {fill: #720eb1;}
-  100% {fill: #cc4400;}
+  0% { fill: #720eb1; }
+  100% { fill: #cc4400; }
 }
 
 .petal-purple {
