@@ -181,14 +181,14 @@ footer {
 
 .grid-work {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
 /*grid fallback*/
 .grid-work__item {
   display: inline-block;
-  width: .25%;
+  width: .33%;
 }
 
 .grid-work__item {
@@ -221,7 +221,7 @@ footer {
 @media screen and (min-width: 500px) and (max-width: 750px){
   .grid-work {grid-template-columns: 1fr 1fr;}
 }
-@media screen and (min-width: 750px) and (max-width: 1000px){
+@media screen and (min-width: 750px){
   .grid-work {grid-template-columns: 1fr 1fr 1fr;}
 }
 

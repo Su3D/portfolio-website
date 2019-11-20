@@ -240,15 +240,15 @@ footer {
 .grid-work {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1em 1fr 1em 1fr 1em 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1em 1fr 1em 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
 /*grid fallback*/
 .grid-work__item {
   display: inline-block;
-  width: .25%;
+  width: .33%;
 }
 
 .grid-work__item {
@@ -281,7 +281,7 @@ footer {
 @media screen and (min-width: 500px) and (max-width: 750px){
   .grid-work {-ms-grid-columns: 1fr .75em 1fr;grid-template-columns: 1fr 1fr;}
 }
-@media screen and (min-width: 750px) and (max-width: 1000px){
+@media screen and (min-width: 750px){
   .grid-work {-ms-grid-columns: 1fr .75em 1fr .75em 1fr;grid-template-columns: 1fr 1fr 1fr;}
 }
 
